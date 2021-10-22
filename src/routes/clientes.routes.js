@@ -1,0 +1,14 @@
+const { Router } = require('express');
+const { renderIndex, updateCliente } = require('../controllers/clientes.controllers');
+
+
+const router = Router()
+
+
+//localhost:3000/
+router.get('/', renderIndex);
+//localhost:3000/api/clientes/:id
+router.put('/:id', updateCliente);
+
+
+module.exports = router

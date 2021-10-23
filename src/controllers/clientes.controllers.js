@@ -65,6 +65,25 @@ const updateCliente = async(req, res) => {
     }
 }
 
+
+const createCliente = async(req, res) => {
+    const { nombre } = req.body;
+    try {
+        const clienteData = await Cliente.create({
+            nombre
+        });
+        const cliente = clienteData.dataValues;
+        return res.send({
+            cliente
+        });
+    } catch (error) {
+        console.log(error);
+        return res.status(500).send({
+            error
+        });
+    }
+}
+
 module.exports = {
     renderIndex,
     updateCliente

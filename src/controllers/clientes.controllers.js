@@ -70,7 +70,8 @@ const createCliente = async(req, res) => {
     const { nombre } = req.body;
     try {
         const clienteData = await Cliente.create({
-            nombre
+            nombre,
+            estado: true
         });
         const cliente = clienteData.dataValues;
         return res.send({
@@ -86,5 +87,6 @@ const createCliente = async(req, res) => {
 
 module.exports = {
     renderIndex,
-    updateCliente
+    updateCliente,
+    createCliente
 }

@@ -29,5 +29,9 @@ npm start
 - Se hace el supuesto de que los productos ya tienen el IVA incluido.
 - IVA se calcula en base al total de la venta.
 
+# Vistas
 
+# Diagrama ER
+
+![DiagramaER](https://user-images.githubusercontent.com/32950166/138541926-96b08bd1-911d-4418-b3dd-01da677e0fcb.png)
 

@@ -30,6 +30,23 @@ npm start
 - IVA se calcula en base al total de la venta.
 
 # Vistas
+## Clientes
+![Clientes](https://user-images.githubusercontent.com/32950166/138567587-465c0adc-7a82-4ca8-a35f-518186c3584a.png)
+
+## Productos
+![image](https://user-images.githubusercontent.com/32950166/138567605-768211ce-cc7c-41ea-8df3-05082b3f1ab1.png)
+
+## Añadir Productos
+![image](https://user-images.githubusercontent.com/32950166/138567635-7c849117-a428-4ec2-9b64-335f093f7dac.png)
+
+## Editar Productos
+![image](https://user-images.githubusercontent.com/32950166/138567664-dfea330c-441b-450f-8619-dbd45d5ab4e8.png)
+
+## Ventas
+![image](https://user-images.githubusercontent.com/32950166/138567675-98b836b4-cc34-4d6a-8d47-ce9f15f94384.png)
+
+## Editar/Añadir Ventas/Detalles
+![image](https://user-images.githubusercontent.com/32950166/138567743-99906334-5eb3-4d03-a298-8535e8fb8d6c.png)
 
 # Diagrama ER
 

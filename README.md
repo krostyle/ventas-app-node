@@ -1,4 +1,4 @@
-# Aplicación de Ventas MVC WherEx
+# Aplicación de Ventas
 Aplicación con el patrón MVC para la gestión de ventas de productos a clientes.
 ## Tecnologías
 - [Express](https://expressjs.com/) - Framework de NodeJS
